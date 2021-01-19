@@ -9,9 +9,9 @@
 Deskreen is an `electron.js` based application that uses `WebRTC` to make a live stream of your
 desktop to a web browser on any device.
 It is built on top of [Electron React Boilerplate](https://github.com/electron-react-boilerplate)
-For better security mechanism, end-to-end encrytpion is implemented, which is inspired by
+For better security mechanism, end-to-end encryption is implemented, which is inspired by
 [darkwire.io](https://github.com/darkwire/darkwire.io) , the difference is, that it is rewritten
-in `Typescript` and trnasformed to use `node-forge` instead of `window.crypto.subtle`.
+in `Typescript` and transformed to use `node-forge` instead of `window.crypto.subtle`.
 Why this was made? Because a client served with `http` without SSL, which makes `window.crypto. subtle` unavailable.
 (TODO: write more docs about Deskreen architecture)
 
@@ -65,7 +65,7 @@ And sonar-scanner. Then add sonar scanner to your PATH.
 You need to run sonar-scanner separately on root directory
 and on `app/client` directory.
 
-Luckily for you sonar scanner is automatically triggered after `husky` checks.
+Luckily for you, sonar scanner is automatically triggered after `husky` checks.
 So you only need to install and configure SonarCube locally and
 create two separate projects in SonarCube panel.
 First project for host app, and second project for client viewer app.
